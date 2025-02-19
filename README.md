@@ -6,14 +6,24 @@ This Python script generates a March Madness bracket based on data from ESPN and
 
 Before running the script, ensure you have the following installed:
     
-Python 3.x
+-Python 3.x
     
-pandas library
+-pandas library
 
 You can install the required library using pip:
 
     pip install pandas
 
+Installation
+1. Clone the repository to your local machine:
+   git clone https://github.com/your-username/your-repo-name.git
+2. Navigate to the repository directory:
+    cd your-repo-name
 
+#Usage
+
+1. Download the required data files:
+       - Copy of 2023 March Madness Optimal Bracket - ESPN.csv
+       - FiveThirtyEight Data - 538.csv
 
 
