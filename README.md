@@ -15,39 +15,40 @@ You can install the required library using pip:
 
 ```bash
 pip install pandas
+```
 
+## Installation
 
-Installation
-Clone the repository to your local machine:
+1. **Clone the repository** to your local machine:
 
-bash
-Copy
-git clone https://github.com/your-username/your-repo-name.git
-Navigate to the repository directory:
+   ```bash
+   git clone https://github.com/your-username/your-repo-name.git
+   ```
 
-bash
-Copy
-cd your-repo-name
-Usage
-Download the required data files:
+2. **Navigate to the repository directory**
 
-Copy of 2023 March Madness Optimal Bracket - ESPN.csv
+   ```bash
+   cd your-repo-name
+   ```
 
-FiveThirtyEight Data - 538.csv
+## Usage
 
-Place these files in the same directory as the BracketGenerator2023.py script.
+1. **Download the required data files:**
 
-Run the script:
+- **Copy of 2023 March Madness Optimal Bracket - ESPN.csv**
+- **FiveThirtyEight Data - 538.csv**
 
-bash
-Copy
-python BracketGenerator2023.py
-The script will output the generated bracket to the console.
+2. **Run the script:**
 
-Example Output
+```bash
+   python BracketGenerator2023.py
+   ```
+
+## Example Output
+
 The script will print the bracket in the following format:
 
-Copy
+```bash
 === March Madness Bracket ===
 
  Champion:
@@ -67,3 +68,8 @@ Copy
 
  Round of 32:
  [Team A, Team B, Team C, Team D, Team E, Team F, Team G, Team H, Team I, Team J, Team K, Team L, Team M, Team N, Team O, Team P, Team Q, Team R, Team S, Team T, Team U, Team V, Team W, Team X, Team Y, Team Z, Team AA, Team AB, Team AC, Team AD, Team AE, Team AF]
+```
+
+## Contributing
+
+If you'd like to contribute to this project, please fork the repository and create a pull request with your changes.
