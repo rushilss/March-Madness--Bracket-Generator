@@ -20,7 +20,7 @@ Installation
 2. Navigate to the repository directory:
     cd your-repo-name
 
-#Usage
+# Usage
 
 1. Download the required data files:
        - Copy of 2023 March Madness Optimal Bracket - ESPN.csv
