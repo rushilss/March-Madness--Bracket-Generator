@@ -6,13 +6,13 @@ This Python script generates a March Madness bracket based on data from ESPN and
 
 Before running the script, ensure you have the following installed:
     
-    Python 3.x
+Python 3.x
     
-    pandas library
+pandas library
 
 You can install the required library using pip:
 
-pip install pandas
+    pip install pandas
 
 
 
