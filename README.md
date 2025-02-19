@@ -23,7 +23,8 @@ Installation
 # Usage
 
 1. Download the required data files:
-       - Copy of 2023 March Madness Optimal Bracket - ESPN.csv
-       - FiveThirtyEight Data - 538.csv
+   Copy of 2023 March Madness Optimal Bracket - ESPN.csv
+
+    FiveThirtyEight Data - 538.csv
 
 
