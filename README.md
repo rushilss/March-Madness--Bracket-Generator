@@ -34,7 +34,7 @@ Welcome to the March Madness Bracket Generator 2023! This Python script is desig
 
 ---
 
-## Example Output
+## Output
 
 The script will print the bracket in the following format:
 
@@ -42,22 +42,22 @@ The script will print the bracket in the following format:
 === March Madness Bracket ===
 
  Champion:
- [Champion Team]
+Houston
 
  Finals:
- [Team A, Team B]
+Creighton, Houston
 
  Final Four:
- [Team A, Team B, Team C, Team D]
+Creighton, Gonzaga, Houston, Kentucky
 
  Elite Eight:
- [Team A, Team B, Team C, Team D, Team E, Team F, Team G, Team H]
+Creighton, Gonzaga, Houston, Iowa State, Kentucky, San Diego St, Tennessee, UConn
 
  Sweet Sixteen:
- [Team A, Team B, Team C, Team D, Team E, Team F, Team G, Team H, Team I, Team J, Team K, Team L, Team M, Team N, Team O, Team P]
+Arkansas, Boise St, Creighton, Drake, Gonzaga, Houston, Iowa State, Kentucky, Maryland, Memphis, Michigan St, San Diego St, Tennessee, Texas A&M, UConn, Utah State
 
  Round of 32:
- [Team A, Team B, Team C, Team D, Team E, Team F, Team G, Team H, Team I, Team J, Team K, Team L, Team M, Team N, Team O, Team P, Team Q, Team R, Team S, Team T, Team U, Team V, Team W, Team X, Team Y, Team Z, Team AA, Team AB, Team AC, Team AD, Team AE, Team AF]
+Alabama, Arizona, Arizona State, Arkansas, Auburn, Boise St, Colgate, Creighton, Drake, Duke, Furman, Gonzaga, Houston, Iowa State, Kansas, Kennesaw St, Kent State, Kentucky, Maryland, Memphis, Michigan St, Montana St, Purdue, San Diego St, Tennessee, Texas A&M, UCLA, UCSB, UConn, Utah State, VCU, Vermont
 ```
 ---
 
