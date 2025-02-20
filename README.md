@@ -1,4 +1,4 @@
-# NCAA Bracket Generator
+# March Madness Bracket Generator
 
 Welcome to the March Madness Bracket Generator 2023! This Python script is designed to generate a predictive bracket for the NCAA March Madness tournament using data from ESPN and FiveThirtyEight. By leveraging probability data from these sources, the script calculates the most likely teams to advance through each round of the tournament, from the Round of 64 all the way to the National Championship.
 
