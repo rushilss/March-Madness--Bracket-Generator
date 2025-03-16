@@ -114,7 +114,7 @@ def main():
     fte_table = load_and_clean_fte_data("FiveThirtyEight Data - 538.csv")
     merged_table = merge_tables(espn_table, fte_table, rounds)  # Pass rounds as an argument
     leverage = calculate_leverage(merged_table)
-
+    
     #Pick Champion
     # Sort by NCG_Lev from greatest to least
     leverage = leverage.sort_values(by='NCG_Lev', ascending=False)
@@ -299,6 +299,13 @@ def main():
         for _, row in leverage.iterrows():
             team_region = row['Region']
             team_seed = int(row['Seed'])
+            
+            # Check if R32_538 value in merged_table is greater than 25% ensuring not picking too many upsets
+            r32_538_value = merged_table.loc[merged_table['Team'] == row['Team'], 'R2_538'].values[0]
+            if r32_538_value <= 25:  # Skip if R32_538 is 25% or less
+                continue
+            
+            
             region_teams = [
                 team for team in round_of_32
                 if original_leverage.loc[original_leverage['Team'] == team, 'Region'].values[0] == team_region
